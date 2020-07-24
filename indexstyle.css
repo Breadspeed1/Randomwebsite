@@ -5,14 +5,16 @@ h1 {
 color: darkblue;
 font-family: Impact;
 font-size: 300%;
-border: 5px solid blue:
+border: solid blue;
+border-width: 0 1px;
 }
 a {
 color: blue;
 background-color: cyan;
 font-family: Verdana;
 font-size: 150%;
-border: 2px solid powderblue;
+border: solid powderblue;
+border-width: 0 3px;;
 }
 h4{
 color: darkblue;
