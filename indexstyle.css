@@ -14,7 +14,8 @@ background-color: cyan;
 font-family: Verdana;
 font-size: 150%;
 border: solid powderblue;
-border-width: 0 3px;;
+border-width: 0 3px;
+vertical-align: middle
 }
 h4{
 color: darkblue;
