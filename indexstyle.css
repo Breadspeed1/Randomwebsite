@@ -5,16 +5,18 @@ h1 {
 color: darkblue;
 font-family: Impact;
 font-size: 300%;
-border: solid blue;
-border-width: 0 1px;
+border-style: solid;
+  border-color: blue;
+border-width: 5px;
 }
 a {
 color: blue;
 background-color: cyan;
 font-family: Verdana;
 font-size: 150%;
-border: solid darkblue;
-border-width: 0 3px;
+border-style: solid;
+border-color: darkblue;
+border-width: 5px;
 vertical-align: middle;
 }
 h4{
