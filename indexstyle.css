@@ -3,11 +3,17 @@ background-color: powderblue;
 }
 h1 {
 color: darkblue;
+font-family: Impact;
+  font-size: 150%;
 }
 a {
 color: blue;
 background-color: cyan;
+font-family: Verdana;
+font-size: 150%;
 }
 h4{
 color: darkblue;
+font-family: Arial;
+font-size: 200%;
 }
