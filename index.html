@@ -14,6 +14,7 @@
 		<a href="https://breadspeed1.github.io/Randomwebsite/TheBeeMovieScriptEnglish">The Bee Movie Script!</a>
 		<img src="https://breadspeed1.github.io/Randomwebsite/websitepictures/thebeemovie.jpg" alt="thebeemovie">
 		<hr>
+		<button onclick="shrekcollapse()">Collapse</button>  <button onclick="shrekexpand()">Expand</button>
 		<a id="shrek" href="https://breadspeed1.github.io/Randomwebsite/ShrekOneScript">Shrek 1 Script!</a>
 		<img id="shrek" src="https://breadspeed1.github.io/Randomwebsite/websitepictures/shrekone.jpg" alt="shrek 1">
 		<hr>
@@ -23,5 +24,15 @@
 		<a id="shrek" href="https://breadspeed1.github.io/Randomwebsite/ShrekThreeScript">Shrek 3 Script!</a>
 		<img id="shrek" src="https://breadspeed1.github.io/Randomwebsite/websitepictures/shrekthree.jpg" alt="shrek 3">
 		<hr>
+		
+		<script>
+		function shrekcollapse(){
+		document.getElementById("shrek").style.display = "none";
+		}
+			
+		function shrekexpand(){
+		document.getElementByID("shrek").style.display = "block";
+		}
+		</script>
 	</body>
 </html>
